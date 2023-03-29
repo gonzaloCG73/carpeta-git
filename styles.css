@@ -80,7 +80,7 @@ footer ul li{
 /* punto de quibre  */
 @media(max-width: 480px){
     header{
-        background-color: #c9f30c;
+        background-color: #98b710;
         flex-direction: column;
     }
     header ul{
