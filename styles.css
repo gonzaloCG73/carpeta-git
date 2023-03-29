@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header,main,footer {
+    padding: 20px;
+
+}
+header {
+   background-color: #290681;
+    display: flex; 
+   justify-content: space-between;
+   align-items: center;
+} 
+header img {
+    width: 120px;
+    border-radius: 50%;
+   
+}
+
+
+
+header ul {
+    list-style: none;
+    display: flex;
+    
+   
+   
+}
+header ul li { 
+    background-color: #fff;
+    padding: 10px;
+     margin: 10px; 
+     border-radius: 12%;
+}
+    
+main {
+    background-color: #d4bbbb;
+    display: flex;
+}
+main img {
+    width: 120px;
+    border-radius: 50%;
+  
+   
+}
+.grid-item {
+    background-color: #adde0e;
+    width: 200px;
+    padding: 20px; 
+    margin: 15px;
+    text-align: center;
+    border-radius: 15%;
+}
+.grid-item img {
+
+    width: 100px;
+} 
+.container{
+    
+}
+footer {
+    display: flex;
+    background-color: #0bc455;
+    font-size: 10px;
+    justify-content: space-between;
+}
+footer ul{
+    list-style: none;
+    font-size: 12px;
+    padding: 10px;
+}
+footer ul li{
+    /* background-color: #fff; */
+   
+    padding: 5px;
+    margin: 5px;
+}
+/* punto de quibre  */
+@media(max-width: 480px){
+    header{
+        background-color: #c9f30c;
+        flex-direction: column;
+    }
+    header ul{
+         flex-direction: column;
+
+
+    }
+}
+
+     
+    
+    
+     
+     
+
+    
+
+
+
+    
+
+   
+   
+
+
+
+   
+
+
+
+
+
+   
+
+
+
+ 
+
+
+
+
+ 
+ 
