@@ -85,9 +85,17 @@ footer ul li{
     }
     header ul{
          flex-direction: column;
-
+    }
+    main{
+        background-image: url("https://i.pinimg.com/550x/5f/4c/61/5f4c61e6af8f9e73893a97b79317b192.jpg");
+    }
+    footer{
+        background-color: #eb0eb4; 
 
     }
+
+
+    
 }
 
      
