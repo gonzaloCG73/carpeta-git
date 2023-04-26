@@ -1,0 +1,312 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background-image: url("https://hbomax-images.warnermediacdn.com/2022-08/still_1.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+  
+header{
+  background-color: #98bfa84a;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+
+header nav ul{
+  display: flex;
+  flex-wrap: wrap;
+ 
+
+}
+/* header nav ul li{ 
+  tex-decoration: none;  */
+
+nav ul li a{
+  text-decoration: none;
+  color:black
+}
+ 
+header h1{
+  color: brown;
+
+}
+header img{
+  width: 180px; 
+  border-radius: 30%;
+  margin: 20px;
+}
+
+header nav ul li{
+  list-style: none;
+  font-size: 20px;
+  background-color: #ffffff73;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5%;
+}
+
+/* Main */
+main {
+  /* background-color: #f31f1f44; */
+  padding: 20px;
+}
+
+/* Sinopsis */
+.sinopsis {
+  background-color: #ecedf7ac;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+  text-align: justify; 
+  border-radius: 10px;
+  /* border: solid red 2px; */
+ 
+}
+
+.sinopsis img {
+  
+  max-width: 200px;
+  border-radius: 10px;
+}
+.sinopsis h2 {
+  display: flex;
+  padding-bottom: 20px;
+  
+}
+.sinopsis p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* padding: 15px; */
+  line-height: 1.5;
+  /* font-size: 18px; */
+  color: rgb(11, 11, 11);
+}
+.titulo-h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  justify-content: center;
+}
+       
+/* Characters */
+.character-1 {
+  background-color: #f3f17785;
+  border: solid red 2px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 18px;
+  color: black;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  
+}
+     
+.cont-characters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  
+}
+.cont-character {
+  background-color: #f0f6efb6;
+   border: solid red 2px; 
+  padding: 10px;
+  width: calc(50% - 10px); 
+  text-align: center;
+  border-radius: 10px;
+}
+.cont-character img {
+   width: 70%;
+   border-radius: 20px;
+  /* max-width: 200px; */     */
+  border-radius: 50%;
+  
+}
+.cont-character h3 {
+  padding-bottom: 10px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif;  */
+    font-size: 17px;  
+   /* margin-top: 10px;  */
+  
+}
+.cont-character p {
+ 
+  font-size: 14px;
+   background-color: #f480806d; 
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 10px;
+}
+/* Streaming */
+.streaming {
+  background-color: #d3fa507f;
+  display: flex;
+  /* justify-content: space-between; */
+  flex-direction: column; 
+  /* justify-content: center; */
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  border: solid yellow 2px;
+  border-radius: 20px; 
+}
+
+.cont-txt-streaming {
+  /* background-color: #f21414; */
+  font-size: 20px;
+  margin-bottom: 10px;
+
+}
+
+.streaming img {
+  width: 200%;
+   max-width: 200px;
+  margin: 20px;
+  border-radius: 20px;
+
+}
+
+.streaming p {
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000000;
+  margin-top: 10px;
+}
+ footer {
+   background-color: #efedf5a7;
+   display: flex;
+   justify-content: space-between;
+   font-size: 15px;
+   padding: 10px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  footer ul {
+  list-style: none;
+  /* display: flex;
+  gap: 10px; */
+}
+  footer ul li {
+    /* border-radius: 5px; */
+    padding: 16px;
+}  
+  .titulo-datos {
+    font-size: 20px;
+}  
+ @media(max-width: 480px){
+    header{
+        background-color: #f807076f;
+    }
+
+}
+@media(max-width: 880px){
+    main{
+        background-color: #3df13d6f;
+}
+} 
+
+
+ 
+  
+
+
+    
+
+    
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+ 
+         
+    
+    
+    
+
+ 
+
+
+        
+
+    
+
+
+    
+
+
+     
+    
+    
+     
+     
+
+    
+
+
+
+    
+
+   
+   
+
+
+
+   
+
+
+
+
+
+   
+
+
+
+ 
+
+
+
+
+ 
+ 
